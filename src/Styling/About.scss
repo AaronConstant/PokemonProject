@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    margin: 40px 10px;
+
+
+}
+
+.info {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    border: 10px solid black;
+    
+    &__title {
+        padding: 10px;
+        text-align: center;
+    }
+
+    &__description {
+        padding: 10px;
+        margin: 10px;
+
+    }
+
+}
